@@ -17,5 +17,5 @@
  * HTTP, resource-based API for external configuration (key-value pairs, or equivalent YAML content)
  * Encrypt and decrypt property values (symmetric or asymmetric)
 
-#References:
+##References:
  * https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html
