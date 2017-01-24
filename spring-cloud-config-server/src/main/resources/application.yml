@@ -1,0 +1,22 @@
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ravi523096/MS_ConfigData
+          searchPaths: TestConfig
+          repos:
+            business-domain1:
+                pattern: app1*
+                #cloneOnStart: true
+                uri: https://github.com/company10/configfiles-app1.git
+            business-domain2:
+                pattern: app2*
+                #cloneOnStart: false
+                uri: https://github.com/company11/configfiles-app2.git
+        # "native" is used when the native profile is active, for local tests with a classpath repo:
+        native:
+          searchLocations: classpath:offline-repository/
+server:
+  port: 8001
