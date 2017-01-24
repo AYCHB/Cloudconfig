@@ -1,7 +1,7 @@
 # Spring Cloud Config Server
 
 ##Objective:
- * Maintain centralized configuration data(or application properties) of applications in GIT - [Config1](https://github.com/company10/configfiles-app1.git), [Config2] (https://github.com/company11/configfiles-app2.git)
+ * Maintain centralized configuration data(or properties) of applications in GIT - [Config1](https://github.com/company10/configfiles-app1.git), [Config2] (https://github.com/company11/configfiles-app2.git)
  * Provide webservices to programmatically read centralized configuration data
  * Authenticate different groups to update configuration information
 
