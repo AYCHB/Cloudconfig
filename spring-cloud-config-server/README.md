@@ -8,3 +8,6 @@ cmd> java -jar spring-cloud-config-server-0.0.1-SNAPSHOT.jar <b><i>--server.port
  * http://localhost:8888/app1/prod
  * http://localhost:8888/app2/dev
  * http://localhost:8888/app2/dev
+
+##### Reference:
+https://cloud.spring.io/spring-cloud-config/spring-cloud-config.html#_security
